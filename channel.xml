@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<music>
+    <channel>
+        <id>000</id>    
+        <title>Mosaic</title>
+        <comment>Mosaic</comment>
+        <url>http://172.16.16.103:1370</url>
+	<Record>not</Record>
+	<thumb_url>http://172.16.16.104/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>001</id>    
+        <title>IRIB_TV01</title>
+        <comment>IRIB_TV01</comment>
+        <url>http://172.16.16.103:1371</url>
+	<Record>smb://172.16.16.103/Record/IRIB_TV1/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>002</id>    
+        <title>IRIB_TV02</title>
+        <comment>IRIB_TV02</comment>
+        <url>http://172.16.16.103:1372</url>
+	<Record>smb://172.16.16.103/Record/IRIB_TV2/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>003</id>    
+        <title>IRIB_TV03</title>
+        <comment>IRIB_TV03</comment>
+        <url>http://172.16.16.103:1373</url>
+	<Record>smb://172.16.16.103/Record/IRIB_TV3/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>004</id>    
+        <title>IRIB_TV04</title>
+        <comment>IRIB_TV04</comment>
+        <url>http://172.16.16.103:1374</url>
+	<Record>smb://172.16.16.103/Record/IRIB_TV4/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>005</id>    
+        <title>IRIB_TV05</title>
+        <comment>IRIB_TV05</comment>
+        <url>http://172.16.16.103:1375</url>
+	<Record>smb://172.16.16.103/Record/IRIB_TV5/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>006</id>    
+        <title>IRIB_AMOOZESH</title>
+        <comment>IRIB_AMOOZESH</comment>
+        <url>http://172.16.16.103:1376</url>
+	<Record>smb://172.16.16.103/Record/IRIB_AMOOZESH/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>007</id>    
+        <title>IRIB_QURAN</title>
+        <comment>IRIB_QURAN</comment>
+        <url>http://172.16.16.103:1377</url>
+	<Record>smb://172.16.16.103/Record/IRIB_QURAN/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>008</id>    
+        <title>IRIB_SALAMAT</title>
+        <comment>IRIB_SALAMAT</comment>
+        <url>http://172.16.16.103:1378</url>
+	<Record>smb://172.16.16.103/Record/IRIB_SALAMAT/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>009</id>    
+        <title>IRIB_NASIM</title>
+        <comment>IRIB_NASIM</comment>
+        <url>http://172.16.16.103:1379</url>
+	<Record>smb://172.16.16.103/Record/IRIB_NASIM/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>010</id>    
+        <title>IRIB_MOSTANAD_HD</title>
+        <comment>IRIB_MOSTANAD_HD</comment>
+        <url>http://172.16.16.103:1380</url>
+	<Record>smb://172.16.16.103/Record/IRIB_MOSTANAD_HD/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>011</id>    
+        <title>IRIB_NAMAYESH</title>
+        <comment>IRIB_NAMAYESH</comment>
+        <url>http://172.16.16.103:1381</url>
+	<Record>smb://172.16.16.103/Record/IRIB_NAMAYESH/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>012</id>    
+        <title>IRIB_OFOGH</title>
+        <comment>IRIB_OFOGH</comment>
+        <url>http://172.16.16.103:1382</url>
+	<Record>smb://172.16.16.103/Record/IRIB_OFOGH/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>013</id>    
+        <title>IRIB_VARZESH</title>
+        <comment>IRIB_VARZESH</comment>
+        <url>http://172.16.16.103:1383</url>
+	<Record>smb://172.16.16.103/Record/IRIB_VARZESH/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>014</id>    
+        <title>IRIB_POOYA</title>
+        <comment>IRIB_POOYA</comment>
+        <url>http://172.16.16.103:1384</url>
+	<Record>smb://172.16.16.103/Record/IRIB_POOYA/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>015</id>    
+        <title>IRIB_TAMASHA_HD</title>
+        <comment>IRIB_TAMASHA_HD</comment>
+        <url>http://172.16.16.103:1385</url>
+	<Record>smb://172.16.16.103/Record/IRIB_TAMASHA_HD/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>016</id>    
+        <title>IRIB_TV3_HD</title>
+        <comment>IRIB_TV3_HD</comment>
+        <url>http://172.16.16.103:1386</url>
+	<Record>smb://172.16.16.103/Record/IRIB_TV3_HD/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>017</id>    
+        <title>IRIB_OMID</title>
+        <comment>IRIB_OMID</comment>
+        <url>http://172.16.16.103:1387</url>
+	<Record>smb://172.16.16.103/Record/IRIB_OMID/</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+    <channel>
+        <id>018</id>    
+        <title>IRIB IRINN</title>
+        <comment>IRIB IRINN</comment>
+        <url>http://172.16.16.103:1388</url>
+	<Record>not</Record>
+	<thumb_url>http://172.16.16.123/channels/PNG/0.png</thumb_url>
+    </channel>
+
+</music>
