@@ -1,1 +1,0 @@
-"SELECT * FROM [channels] where ID=(select channel_id from users_channels where user_id=158)"

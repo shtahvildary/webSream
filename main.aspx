@@ -5,9 +5,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
     <script>
-        function changeSrc(url) {
+        function changeSrc(url,chName) {
             var player = document.getElementById("embed-player");
             player.setAttribute("src", url);
+            var Lable = document.getElementById("lblChName").innerHTML=chName;
+
         }
     </script>
 
@@ -30,18 +32,20 @@
                             <asp:Literal runat="server" ID="litDropDown"></asp:Literal>
                         </ul>
                     </div>
+                    
                 </ul>
                 <a href="#" class="nav-link disabled">
                     <script language="javascript" src="Src/js/date.js"></script>
                 </a>
+                <div class="col-form-label" id="lblChName"><%=chName %></div>
+
             </div>
             </div>
     </nav>
 
-    <div id="main">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12" id="main">
                     <div class="embed-responsive embed-responsive-16by9">
                         <object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab" id="vlc" class="img-fluid" alt="Responsive image">
                             <embed class="embed-responsive-item" id="embed-player" type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" name="vlc" height="100%" src="<%=VlcSrc%>" />
@@ -54,7 +58,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </asp:Content>
 
 

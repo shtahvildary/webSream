@@ -1,11 +1,40 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../Src/fonts/Yekan.eot?#iefix') format('embedded-opentype'),  
+         url('../Src/fonts/Yekan.woff') format('woff'),
+         url('../Src/fonts/Yekan.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  
+@font-face{
+    font-family: 'Nazanin';
+     src: url(/Src/fonts/Nazanin.eot) format('embedded-opentype'),  
+          url(../Src/fonts/Nazanin.woff) format('woff'),
+          url(../Src/fonts/Nazanin.ttf) format('truetype');
+         font-style:normal;
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: 'Badr';
+     src: url('../Src/fonts/Badr.eot?#iefix') format('embedded-opentype'),  
+         url('../Src/fonts/Badr.woff') format('woff'),
+         url('../Src/fonts/Badr.ttf') format('truetype');
+         font-style:normal;
+    font-weight:normal;
+}
+
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-      display: block;
-  position: absolute;
+  display:block;
+  position:center;
   transition: left 300ms, right 300ms, top 300ms, bottom 300ms;
-  background-color: #004E80;
+  background-color: #e4e1e1;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 5px 10px rgba(0, 0, 0, 0.5);
 
 
@@ -14,29 +43,20 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
 
-@font-face {
-    font-family: 'Yekan';
-    src: url('./Src/fonts/Yekan.eot') format('eot'),  
-         url('./Src/fonts/Yekan.woff') format('woff'),
-         url('./Src/fonts/Yekan.ttf') format('truetype');
-    font-style:normal;
-    font-weight:normal;
-  }
-  
+
+
+
 #login{border-radius: 10px; 
     box-shadow: 0px 0px 10px #0F0E0E;
     /* background-color: rgba(255, 255, 255, 0.85) ; */
     padding:50px;
     margin-top: 20%;
     
+    
 }
 body{
-    font-family: "Yekan";
+    font-family:Nazanin,Badr,Yekan;
     direction:rtl;
 }
 
